@@ -16,15 +16,40 @@
   <div class="m-10" transition:slide={{ duration: 500, easing: expoInOut }}>
     <div
       id="projects"
-      class="bg-[#6edcff] h-60 rounded-lg rotate-0 mx-auto max-w-lg"
+      class="bg-[#6edcff] h-80 rounded-lg rotate-0 ma max-w-lg items-center"
     >
-      <Typewriter mode="cascade">
-        <div class="text-white text-lg font-800 p-5">
-          <p>Sorry</p>
-          <p>This page is under constraction.</p>
-          <p>Please come back later.</p>
-        </div>
-      </Typewriter>
+      <div class="text-white text-lg font-800 p-5">
+        <p class="text-10 text-shadow-lg tracking-wide">Projects</p>
+        <ul>
+          <li>
+            <a
+              href="https://music-theory.aizcutei.com"
+              class="transition duration-200 text-white no-underline op80 text-shadow-sm hover:op100"
+              >自由派音乐理论——中文翻译</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/aizcutei/pixelite"
+              class="transition duration-200 text-white no-underline op80 text-shadow-sm hover:op100"
+              >Pixelite: Make you image to pixel art.</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/aizcutei/Lyrecs"
+              class="transition duration-200 text-white no-underline op80 text-shadow-sm hover:op100"
+              ><span>Lyrecs: A lyric displayer for Apple Music.</span></a
+            >
+          </li>
+          <li>
+            <span
+              class="transition duration-200 text-white no-underline op99 text-shadow-sm "
+              >Working on more...</span
+            >
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 {/if}

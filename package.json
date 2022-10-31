@@ -16,6 +16,6 @@
   "dependencies": {
     "svelte-navigator": "^3.2.2",
     "svelte-typewriter": "^3.0.4",
-    "unocss": "^0.45.22"
+    "unocss": "^0.46.1"
   }
 }

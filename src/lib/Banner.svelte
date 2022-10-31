@@ -22,7 +22,7 @@
         class="px-1 text-left font-800 text-6 md:text-8 lg:text-10 xl:text-14 lg:w-1024px transition duration-300 ease-in-out"
       >
         <Typewriter
-          mode="loop"
+          mode="cascade"
           interval="50"
           delay="500"
           keepCursorOnFinish="true"
@@ -30,7 +30,6 @@
         >
           <p>
             <span id="id" class="text-white font-mono">aizcutei</span>
-            <span id="id" class="text-white font-mono">is this real?</span>
           </p>
         </Typewriter>
       </div>

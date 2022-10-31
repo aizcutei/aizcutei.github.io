@@ -16,13 +16,12 @@
   <div class="m-10" transition:slide={{ duration: 500, easing: expoInOut }}>
     <div
       id="about"
-      class="bg-[#6edcff] h-60 rounded-lg rotate-0 mx-auto max-w-lg"
+      class="bg-[#6edcff] h-50 rounded-lg rotate-0 mx-auto max-w-lg"
     >
       <Typewriter mode="cascade">
         <div class="text-white text-lg font-800 p-5">
           <p>Hi, I am aizcutei.</p>
-          <p>DEV PRODUCE TRANSLATE</p>
-          <p>You can find me in by</p>
+          <p>You can find me by</p>
           <p>i_AT_aizcutei.com</p>
         </div>
       </Typewriter>
